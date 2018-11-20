@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:#444;
+}
+
+.problem {
+  color:white;
+  font-size:48px;
+  width:100%;
+  text-align:center;
+  padding-top:5%;
+}
+
+.input-container {
+	padding-top:5%;
+	width:100%;
+	text-align:center;
+}
+
+.input {
+	width:50%;
+	height:36px;
+	font-size:32px;
+	text-align:center;
+}
+
+.meter-container {
+	padding-top:5%;
+	width:100%;
+	text-align:center;
+	display:inline-block;
+}
+
+.meter {
+	width:20px;
+	height:200px;
+	border:1px solid #DDD;
+	margin:20px 10px;
+	display:inline-block;
+}
+
+.meter-fill {
+	width:20px;
+	border:0px;
+	float:left;
+	display:inline-block;
+}
+
+.meter-correct {
+	background-color:green;
+}
+
+.meter-incorrect {
+	background-color:red;
+}
+
+.meter-timer {
+	background-color:orange;
+}
+
+.title-container {
+	width:100%;
+	color:white;
+	text-align:center;
+	margin-top:5%;
+}
+
+.title {
+	width:90%;
+	text-align:center;
+	display:inline-block;
+}
+
+.title-header {
+	font-size:36px;
+	text-shadow:2px 2px 0 #383;
+	font-style:italic;
+
+}
+
+.title-start {
+	color:green;
+	text-decoration: underline;
+	cursor:pointer;
+	background-color: transparent;
+	border:0px;
+	font-size:20px;
+	padding:5px;
+}
+
+.pulse {
+    -webkit-animation: pulse 3s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.3;
+}
+
+@-webkit-keyframes pulse {
+    0% { 
+        opacity: 0.3;
+    }
+    50% { 
+        opacity: 1.0;
+    }
+    100% { 
+        opacity: 0.3;
+    }
+}
+
+.level-display {
+	width:100%;
+	text-align:center;
+	color:white;
+}
+
+.level {
+	color:#0D0;
+	font-weight:bold;
+}
+
+.game-end {
+	margin-top:5%;
+	width:100%;
+	text-align:center;
+}
+
+.win {
+	color:#0D0;
+}
+
+.lose {
+	color:red;
+}
