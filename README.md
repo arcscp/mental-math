@@ -5,7 +5,7 @@ This project was created to help teach myself the ReactJS framework. It is a gam
 ## Future Versions
 
 Planned future releases will include:
-	* More levels with increasing numbers
-	* Additional operators that can be cycled in to add more of a challenge
-	* Improved animation/effects
-	* A 'Freeze' meter to charge and use that will let you freeze/unfreeze the timer
+* More levels with increasing numbers
+* Additional operators that can be cycled in to add more of a challenge
+* Improved animation/effects
+* A 'Freeze' meter to charge and use that will let you freeze/unfreeze the timer
